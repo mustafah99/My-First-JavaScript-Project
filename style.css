@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Sulphur+Point:400,700&display=swap");
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[12];
+      grid-template-columns: repeat(12, 1fr);
+  -ms-grid-rows: (1fr)[12];
+      grid-template-rows: repeat(12, 1fr);
+  font-family: 'Sulphur Point', sans-serif;
+  color: #1c7bb7;
+  background: #90c0de;
+}
+
+header {
+  -ms-grid-row: 4;
+  grid-row: 4;
+  grid-column: 1 / -1;
+}
+
+header h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+#clock {
+  text-align: center;
+  font-size: 3em;
+  -ms-grid-row: 5;
+  grid-row: 5;
+  grid-column: 1 / -1;
+}
+
+section {
+  -ms-grid-row: 6;
+  grid-row: 6;
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+section p {
+  font-size: 1.8em;
+}
+
+section small {
+  font-size: 1em;
+  position: relative;
+  bottom: 30px;
+}
+/*# sourceMappingURL=style.css.map */
